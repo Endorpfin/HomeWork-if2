@@ -19,8 +19,7 @@ public class Main {
             } else {
                 System.out.println("Установите версию приложения для iOS по ссылке");
             }
-        }
-        if (clientOs2 == 1) {
+        } else if (clientOs2 == 1) {
             if (clientDeviceYear < 2015) {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
             } else {
